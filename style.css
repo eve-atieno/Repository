@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+#header{
+    height: 100vh;
+    width: 100;
+    background-image: url(file:///home/moringa/Downloads/Background%20image.jpg);
+    background-position: left;
+    background-size: cover;
+}
+    .container{
+        padding: 10px 10%;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        float: right;
+        margin-right: 20px;
+        margin-top: -200px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin:10px 20px;
+    }
+    nav ul li a{
+        text-decoration: none ; 
+        color: rgb(8, 0, 0);
+        font-weight: bold;
+        padding-right: 40px;
+        margin-top: -300px;
+     }
+    nav ul a:hover{
+        color: orange;
+    }
+    .About{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    .About h1{
+        font-size: 50px;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+     .intro{
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+    }
+    .About p{
+        color: #555;
+        line-height: 22px;
+    }
+    .About{
+        
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .mine{
+        float: right;
+       
+        margin-top: -250px;
+    }
+    .Cv{
+        background-color: orange;
+        text-decoration: none;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        color: black;
+    }
+    .contact{
+        text-align: center;
+        margin-top: 120px;
+    }
+    input{
+        width: 300px;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    textarea{
+        margin-top: 30px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    button{
+        background-color: orange;
+        padding: 10px;
+        margin-top: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 10px;
+        border: 0;
+    }
+    .init{
+        color: orange;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    .them{
+        text-align: center;
+        font-size: 30px;
+        font-family: serif;
+        margin-top: 30px;
+    }
+    .try{
+        border-top: 30px;
+        margin-top: -300px;
+        font-family: sans-serif;
+    }
+    .info{
+        margin-top: -600px;
+    }
+    .Details{
+       text-align: center;
+       margin-top: 100px;
+        font-size: 30px;
+        }
+        .Details h5{
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .date{
+            margin-top: 100px;
+        }
+
